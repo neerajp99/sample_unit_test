@@ -10,7 +10,7 @@
 
 	class Collection implements IteratorAggregate,  JsonSerializable {
 
-		protected $items = [];
+		// protected $items = [];
 
 		public function __construct(array $items = []) {
 			$this->items = $items;
